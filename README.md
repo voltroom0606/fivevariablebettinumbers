@@ -121,22 +121,22 @@ This is the `total` row in a Macaulay2 Betti table. It records the ranks of the 
 
 For example, if the nonzero graded Betti numbers are
 
-$$\beta_{0,0}$$ = 1
-$$\beta_{1,1}$$ = 1
-$$\beta_{1,3}$$ = 4
-$$\beta_{2,4}$$ = 7
+$$\beta_{0,0}$$ = 1,
+$$\beta_{1,1}$$ = 1,
+$$\beta_{1,3}$$ = 4,
+$$\beta_{2,4}$$ = 7,
 $$\beta_{3,5}$$ = 3
 
 then
 
-$$\beta_0$$ = 1
-$$\beta_1$$ = 1 + 4 = 5
-$$\beta_2$$ = 7
+$$\beta_0$$ = 1,
+$$\beta_1$$ = 1 + 4 = 5,
+$$\beta_2$$ = 7,
 $$\beta_3$$ = 3
 
 so the total Betti vector is
 
-(1, 5, 7, 3)
+$$(1, 5, 7, 3)$$
 
 
 ### Projective dimension
