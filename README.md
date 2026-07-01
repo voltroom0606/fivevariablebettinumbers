@@ -8,7 +8,7 @@ This repository contains code and output files for the enumeration and Betti tab
 - Removing the zero ideal (0) and the unit ideal (1) leaves 208 nonzero proper representative ideals.
 - Among these 208 representatives, there are 134 distinct graded Betti tables for the quotient rings $$S/I$$.
 
-The Betti table computation was carried out in Macaulay2 over the finite field $$F_67$$; given that the paper proves characteristic-independence for monomial ideals in five variables, the computed Betti tables will agree with the Betti tables over any field.
+The Betti table computation was carried out in Macaulay2 over the finite field $$F_{67}$$; given that the paper proves characteristic-independence for monomial ideals in five variables, the computed Betti tables will agree with the Betti tables over any field.
 
 ## Repository structure
 
