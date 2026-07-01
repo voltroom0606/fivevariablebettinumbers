@@ -89,54 +89,32 @@ For example, if a type has count 3, then three non-isomorphic squarefree monomia
 
 ### Graded Betti numbers
 
-For a graded minimal free resolution
-```
-$$ 0 \leftarrow S/I \leftarrow F_0 \leftarrow F_1 \leftarrow F_2 \leftarrow \cdots, $$
-```
-we can write
-```
-$$ F_i=\bigoplus_j S(-j)^{\beta_{i,j}}.$$
-```
+For a graded minimal free resolution $$ 0 \leftarrow S/I \leftarrow F_0 \leftarrow F_1 \leftarrow F_2 \leftarrow \cdots, $$
+we can write $$ F_i=\bigoplus_j S(-j)^{\beta_{i,j}}.$$
 The numbers $$\beta_{i,j}$$ are the graded Betti numbers of S/I.
 
 Here $$i$$ is the homological degree and $$j$$ is the internal degree.
 
 ### Total Betti vector
 
-The total Betti number in homological degree $$i$$ is
-```
-$$ \beta_i=\sum_j \beta_{i,j}.$$
-```
-The total Betti vector is
-```
-$$(\beta_0,\beta_1,\beta_2,\ldots,\beta_p).$$
-```
+The total Betti number in homological degree $$i$$ is $$ \beta_i=\sum_j \beta_{i,j}.$$
+The total Betti vector is $$(\beta_0,\beta_1,\beta_2,\ldots,\beta_p).$$
 
 This is the `total` row in a Macaulay2 Betti table. It records the ranks of the free modules in the minimal resolution, but it forgets the degree shifts.
 
-For example, if the nonzero graded Betti numbers are
-```
-$$\beta_{0,0}=1,\beta_{1,1}=1,\beta_{1,3}=4,\beta_{2,4}=7,\beta_{3,5}=3,$$
-```
-then the total Betti vector is
-```
-(1,5,7,3).
-```
+For example, if the nonzero graded Betti numbers are $$\beta_{0,0}=1,\beta_{1,1}=1,\beta_{1,3}=4,\beta_{2,4}=7,\beta_{3,5}=3,$$
+then the total Betti vector is (1,5,7,3).
+
 
 ### Projective dimension
 
-The projective dimension is
-```
-$$\operatorname{pd}(S/I)=\max{i:\beta_{i,j}\neq 0\text{ for some }j}.$$
-```
+The projective dimension is $$\operatorname{pd}(S/I)=\max{i:\beta_{i,j}\neq 0\text{ for some }j}.$$
+
 It is the length of the minimal free resolution.
 
 ### Regularity
 
-The Castelnuovo--Mumford regularity is
-```
-$$\operatorname{reg}(S/I)=\max{j-i:\beta_{i,j}\neq 0}.$$
-```
+The Castelnuovo--Mumford regularity is $$\operatorname{reg}(S/I)=\max{j-i:\beta_{i,j}\neq 0}.$$
 It measures how far the nonzero Betti numbers extend above the linear strand.
 
 
