@@ -91,11 +91,11 @@ For example, if a type has count 3, then three non-isomorphic squarefree monomia
 
 For a graded minimal free resolution
 ```
-0 \leftarrow S/I \leftarrow F_0 \leftarrow F_1 \leftarrow F_2 \leftarrow \cdots,
+$$ 0 \leftarrow S/I \leftarrow F_0 \leftarrow F_1 \leftarrow F_2 \leftarrow \cdots, $$
 ```
 we can write
 ```
-F_i=\bigoplus_j S(-j)^{\beta_{i,j}}.
+$$ F_i=\bigoplus_j S(-j)^{\beta_{i,j}}.$$
 ```
 The numbers $$\beta_{i,j}$$ are the graded Betti numbers of S/I.
 
@@ -105,19 +105,18 @@ Here $$i$$ is the homological degree and $$j$$ is the internal degree.
 
 The total Betti number in homological degree $$i$$ is
 ```
-\beta_i=\sum_j \beta_{i,j}.
+$$ \beta_i=\sum_j \beta_{i,j}.$$
 ```
 The total Betti vector is
 ```
-(\beta_0,\beta_1,\beta_2,\ldots,\beta_p).
+$$(\beta_0,\beta_1,\beta_2,\ldots,\beta_p).$$
 ```
 
 This is the `total` row in a Macaulay2 Betti table. It records the ranks of the free modules in the minimal resolution, but it forgets the degree shifts.
 
 For example, if the nonzero graded Betti numbers are
 ```
-\beta_{0,0}=1,\quad \beta_{1,1}=1,\quad \beta_{1,3}=4,\quad
-\beta_{2,4}=7,\quad \beta_{3,5}=3,
+$$\beta_{0,0}=1,\beta_{1,1}=1,\beta_{1,3}=4,\beta_{2,4}=7,\beta_{3,5}=3,$$
 ```
 then the total Betti vector is
 ```
@@ -128,7 +127,7 @@ then the total Betti vector is
 
 The projective dimension is
 ```
-\operatorname{pd}(S/I)=\max{i:\beta_{i,j}\neq 0\text{ for some }j}.
+$$\operatorname{pd}(S/I)=\max{i:\beta_{i,j}\neq 0\text{ for some }j}.$$
 ```
 It is the length of the minimal free resolution.
 
@@ -136,29 +135,10 @@ It is the length of the minimal free resolution.
 
 The Castelnuovo--Mumford regularity is
 ```
-\operatorname{reg}(S/I)=\max{j-i:\beta_{i,j}\neq 0}.
+$$\operatorname{reg}(S/I)=\max{j-i:\beta_{i,j}\neq 0}.$$
 ```
 It measures how far the nonzero Betti numbers extend above the linear strand.
 
-### Multiplicity distribution
-
-The multiplicity distribution records how many Betti table types occur with each count. In this computation:
-```
-\begin{array}{c|c|c}
-\text{Ideals per Betti table} & \text{Number of Betti table types} &
-\text{Ideals accounted for} \
-\hline
-1 & 96 & 96\
-2 & 18 & 36\
-3 & 11 & 33\
-4 & 3 & 12\
-5 & 5 & 25\
-6 & 1 & 6\
-\hline
-\text{Total} & 134 & 208
-\end{array}
-```
-Thus most Betti table types occur for exactly one ideal, while the largest Betti table type is realized by six ideals.
 
 ## AI-use disclosure
 
