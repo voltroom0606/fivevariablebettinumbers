@@ -4,11 +4,11 @@ This repository contains code and output files for the enumeration and Betti tab
 
 ## Main computational results
 
-- There are 210 squarefree monomial ideal representatives in five variables up to relabeling by the symmetric group `S_5`.
+- There are 210 squarefree monomial ideal representatives in five variables up to relabeling by the symmetric group $$S_5$$.
 - Removing the zero ideal (0) and the unit ideal (1) leaves 208 nonzero proper representative ideals.
-- Among these 208 representatives, there are 134 distinct graded Betti tables for the quotient rings S/I.
+- Among these 208 representatives, there are 134 distinct graded Betti tables for the quotient rings $$S/I$$.
 
-The Betti table computation was carried out in Macaulay2 over the finite field `F_67`; given that the paper proves characteristic-independence for monomial ideals in five variables, the computed Betti tables will agree with the Betti tables over any field.
+The Betti table computation was carried out in Macaulay2 over the finite field $$F_67$$; given that the paper proves characteristic-independence for monomial ideals in five variables, the computed Betti tables will agree with the Betti tables over any field.
 
 ## Repository structure
 
@@ -81,7 +81,7 @@ that means the ideal comes from row 105 in the 210-ideal table.
 
 ### Betti table type
 
-A `Betti table type` is one distinct graded Betti table. Two different ideals have the same type if their quotient rings S/I have identical graded Betti tables.
+A `Betti table type` is one distinct graded Betti table. Two different ideals have the same type if their quotient rings $$S/I$$ have identical graded Betti tables.
 
 The computation found 134 distinct Betti table types among the 208 nonzero proper representatives.
 
@@ -105,7 +105,7 @@ For a graded minimal free resolution
 we can write each free module as a direct sum of shifted copies of S: 
 $$F_i$$ = direct sum over $$j$$ of $$S(-j)^{\beta_{i,j}}$$.
 
-The numbers $$\beta_{i,j}$$ are the graded Betti numbers of S/I.
+The numbers $$\beta_{i,j}$$ are the graded Betti numbers of $$S/I$$.
 
 Here $$i$$ is the homological degree and $$j$$ is the internal degree. So, $$\beta_{2,4}$$ = 7 means that there are 7 generators in homological degree 2 and internal degree 4 in the minimal free resolution.
 
@@ -123,8 +123,8 @@ For example, if the nonzero graded Betti numbers are
 
 $$\beta_{0,0}$$ = 1
 $$\beta_{1,1}$$ = 1
-$$\beta_{1,3}$4 = 4
-$$\beta_{2,4}$4 = 7
+$$\beta_{1,3}$$ = 4
+$$\beta_{2,4}$$ = 7
 $$\beta_{3,5}$$ = 3
 
 then
@@ -141,19 +141,19 @@ so the total Betti vector is
 
 ### Projective dimension
 
-The projective dimension of S/I is the largest homological degree $$i$$ where some graded Betti number $$\beta_{i,j}$$ is nonzero.
+The projective dimension of $$S/I$$ is the largest homological degree $$i$$ where some graded Betti number $$\beta_{i,j}$$ is nonzero.
 
-In plain text: pd(S/I) = max $$i$$ such that $$\beta_{i,j}$$ is nonzero for some $$j$$.
+In plain text: pd($$S/I$$) = max $$i$$ such that $$\beta_{i,j}$$ is nonzero for some $$j$$.
 
 It is the length of the minimal free resolution.
 
-For example, if the last nonzero Betti number occurs in homological degree 3, then pd(S/I) = 3.
+For example, if the last nonzero Betti number occurs in homological degree 3, then pd($$S/I$$) = 3.
 
 ### Regularity
 
-The Castelnuovo-Mumford regularity of S/I is
+The Castelnuovo-Mumford regularity of $$S/I$$ is
 
-reg(S/I) = max($$j$$ - $$i$$) such that $$\beta_{i,j}$$ is nonzero.
+reg($$S/I$$) = max($$j$$ - $$i$$) such that $$\beta_{i,j}$$ is nonzero.
 
 It measures how far the nonzero Betti numbers extend above the linear strand.
 
