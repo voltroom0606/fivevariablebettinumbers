@@ -100,7 +100,7 @@ means that six different squarefree monomial ideals, up to relabeling, have the 
 
 For a graded minimal free resolution
 
-0 <- S/I <- F_0 <- F_1 <- F_2 <- ...
+... -> $F_2$ -> $F_1$ -> $F_0$ -> $S/I$ -> 0,
 
 we can write each free module as a direct sum of shifted copies of S: 
 $$F_i$$ = direct sum over $$j$$ of $$S(-j)^{\beta_{i,j}}$$.
