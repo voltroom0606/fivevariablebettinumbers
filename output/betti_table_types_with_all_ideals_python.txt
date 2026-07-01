@@ -1,0 +1,2094 @@
+All distinct graded Betti table types among 208 nonzero proper squarefree ideals in 5 variables
+Computed by Python implementation of Hochster formula over Q. Betti numbers are for S/I.
+Number of representatives = 208
+Number of distinct Betti tables = 134
+
+Multiplicity distribution (number of ideals per Betti table -> number of table types):
+  1 -> 96
+  2 -> 18
+  3 -> 11
+  4 -> 3
+  5 -> 5
+  6 -> 1
+
+==========================================================================================
+TYPE 1
+count = 1
+all original indices = [3]
+all ideals with this table:
+  3: (x1)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 1}
+Total Betti vector = (1, 1)
+pd(S/I) = 1; reg(S/I) = 0
+          0    1
+total:    1    1
+    0:    1    1
+
+==========================================================================================
+TYPE 2
+count = 1
+all original indices = [4]
+all ideals with this table:
+  4: (x1*x2)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 1}
+Total Betti vector = (1, 1)
+pd(S/I) = 1; reg(S/I) = 1
+          0    1
+total:    1    1
+    0:    1    .
+    1:    .    1
+
+==========================================================================================
+TYPE 3
+count = 1
+all original indices = [5]
+all ideals with this table:
+  5: (x1*x2*x3)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 1}
+Total Betti vector = (1, 1)
+pd(S/I) = 1; reg(S/I) = 2
+          0    1
+total:    1    1
+    0:    1    .
+    1:    .    .
+    2:    .    1
+
+==========================================================================================
+TYPE 4
+count = 1
+all original indices = [6]
+all ideals with this table:
+  6: (x1*x2*x3*x4)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 4): 1}
+Total Betti vector = (1, 1)
+pd(S/I) = 1; reg(S/I) = 3
+          0    1
+total:    1    1
+    0:    1    .
+    1:    .    .
+    2:    .    .
+    3:    .    1
+
+==========================================================================================
+TYPE 5
+count = 1
+all original indices = [7]
+all ideals with this table:
+  7: (x1*x2*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 5): 1}
+Total Betti vector = (1, 1)
+pd(S/I) = 1; reg(S/I) = 4
+          0    1
+total:    1    1
+    0:    1    .
+    1:    .    .
+    2:    .    .
+    3:    .    .
+    4:    .    1
+
+==========================================================================================
+TYPE 6
+count = 1
+all original indices = [8]
+all ideals with this table:
+  8: (x1, x2)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 2, (2, 2): 1}
+Total Betti vector = (1, 2, 1)
+pd(S/I) = 2; reg(S/I) = 0
+          0    1    2
+total:    1    2    1
+    0:    1    2    1
+
+==========================================================================================
+TYPE 7
+count = 1
+all original indices = [9]
+all ideals with this table:
+  9: (x1, x2*x3)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 1, (1, 2): 1, (2, 3): 1}
+Total Betti vector = (1, 2, 1)
+pd(S/I) = 2; reg(S/I) = 1
+          0    1    2
+total:    1    2    1
+    0:    1    1    .
+    1:    .    1    1
+
+==========================================================================================
+TYPE 8
+count = 1
+all original indices = [10]
+all ideals with this table:
+  10: (x1, x2*x3*x4)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 1, (1, 3): 1, (2, 4): 1}
+Total Betti vector = (1, 2, 1)
+pd(S/I) = 2; reg(S/I) = 2
+          0    1    2
+total:    1    2    1
+    0:    1    1    .
+    1:    .    .    .
+    2:    .    1    1
+
+==========================================================================================
+TYPE 9
+count = 1
+all original indices = [11]
+all ideals with this table:
+  11: (x1, x2*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 1, (1, 4): 1, (2, 5): 1}
+Total Betti vector = (1, 2, 1)
+pd(S/I) = 2; reg(S/I) = 3
+          0    1    2
+total:    1    2    1
+    0:    1    1    .
+    1:    .    .    .
+    2:    .    .    .
+    3:    .    1    1
+
+==========================================================================================
+TYPE 10
+count = 1
+all original indices = [12]
+all ideals with this table:
+  12: (x1*x2, x1*x3)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 2, (2, 3): 1}
+Total Betti vector = (1, 2, 1)
+pd(S/I) = 2; reg(S/I) = 1
+          0    1    2
+total:    1    2    1
+    0:    1    .    .
+    1:    .    2    1
+
+==========================================================================================
+TYPE 11
+count = 1
+all original indices = [13]
+all ideals with this table:
+  13: (x1*x2, x3*x4)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 2, (2, 4): 1}
+Total Betti vector = (1, 2, 1)
+pd(S/I) = 2; reg(S/I) = 2
+          0    1    2
+total:    1    2    1
+    0:    1    .    .
+    1:    .    2    .
+    2:    .    .    1
+
+==========================================================================================
+TYPE 12
+count = 1
+all original indices = [14]
+all ideals with this table:
+  14: (x1*x2, x1*x3*x4)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 1, (1, 3): 1, (2, 4): 1}
+Total Betti vector = (1, 2, 1)
+pd(S/I) = 2; reg(S/I) = 2
+          0    1    2
+total:    1    2    1
+    0:    1    .    .
+    1:    .    1    .
+    2:    .    1    1
+
+==========================================================================================
+TYPE 13
+count = 1
+all original indices = [15]
+all ideals with this table:
+  15: (x1*x2, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 1, (1, 3): 1, (2, 5): 1}
+Total Betti vector = (1, 2, 1)
+pd(S/I) = 2; reg(S/I) = 3
+          0    1    2
+total:    1    2    1
+    0:    1    .    .
+    1:    .    1    .
+    2:    .    1    .
+    3:    .    .    1
+
+==========================================================================================
+TYPE 14
+count = 1
+all original indices = [16]
+all ideals with this table:
+  16: (x1*x2, x1*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 1, (1, 4): 1, (2, 5): 1}
+Total Betti vector = (1, 2, 1)
+pd(S/I) = 2; reg(S/I) = 3
+          0    1    2
+total:    1    2    1
+    0:    1    .    .
+    1:    .    1    .
+    2:    .    .    .
+    3:    .    1    1
+
+==========================================================================================
+TYPE 15
+count = 1
+all original indices = [17]
+all ideals with this table:
+  17: (x1*x2*x3, x1*x2*x4)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 2, (2, 4): 1}
+Total Betti vector = (1, 2, 1)
+pd(S/I) = 2; reg(S/I) = 2
+          0    1    2
+total:    1    2    1
+    0:    1    .    .
+    1:    .    .    .
+    2:    .    2    1
+
+==========================================================================================
+TYPE 16
+count = 1
+all original indices = [18]
+all ideals with this table:
+  18: (x1*x2*x3, x1*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 2, (2, 5): 1}
+Total Betti vector = (1, 2, 1)
+pd(S/I) = 2; reg(S/I) = 3
+          0    1    2
+total:    1    2    1
+    0:    1    .    .
+    1:    .    .    .
+    2:    .    2    .
+    3:    .    .    1
+
+==========================================================================================
+TYPE 17
+count = 1
+all original indices = [19]
+all ideals with this table:
+  19: (x1*x2*x3, x1*x2*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 1, (1, 4): 1, (2, 5): 1}
+Total Betti vector = (1, 2, 1)
+pd(S/I) = 2; reg(S/I) = 3
+          0    1    2
+total:    1    2    1
+    0:    1    .    .
+    1:    .    .    .
+    2:    .    1    .
+    3:    .    1    1
+
+==========================================================================================
+TYPE 18
+count = 1
+all original indices = [20]
+all ideals with this table:
+  20: (x1*x2*x3*x4, x1*x2*x3*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 4): 2, (2, 5): 1}
+Total Betti vector = (1, 2, 1)
+pd(S/I) = 2; reg(S/I) = 3
+          0    1    2
+total:    1    2    1
+    0:    1    .    .
+    1:    .    .    .
+    2:    .    .    .
+    3:    .    2    1
+
+==========================================================================================
+TYPE 19
+count = 1
+all original indices = [21]
+all ideals with this table:
+  21: (x1, x2, x3)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 3, (2, 2): 3, (3, 3): 1}
+Total Betti vector = (1, 3, 3, 1)
+pd(S/I) = 3; reg(S/I) = 0
+          0    1    2    3
+total:    1    3    3    1
+    0:    1    3    3    1
+
+==========================================================================================
+TYPE 20
+count = 1
+all original indices = [22]
+all ideals with this table:
+  22: (x1, x2, x3*x4)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 2, (1, 2): 1, (2, 2): 1, (2, 3): 2, (3, 4): 1}
+Total Betti vector = (1, 3, 3, 1)
+pd(S/I) = 3; reg(S/I) = 1
+          0    1    2    3
+total:    1    3    3    1
+    0:    1    2    1    .
+    1:    .    1    2    1
+
+==========================================================================================
+TYPE 21
+count = 1
+all original indices = [23]
+all ideals with this table:
+  23: (x1, x2, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 2, (1, 3): 1, (2, 2): 1, (2, 4): 2, (3, 5): 1}
+Total Betti vector = (1, 3, 3, 1)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    3    3    1
+    0:    1    2    1    .
+    1:    .    .    .    .
+    2:    .    1    2    1
+
+==========================================================================================
+TYPE 22
+count = 1
+all original indices = [24]
+all ideals with this table:
+  24: (x1, x2*x3, x2*x4)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 1, (1, 2): 2, (2, 3): 3, (3, 4): 1}
+Total Betti vector = (1, 3, 3, 1)
+pd(S/I) = 3; reg(S/I) = 1
+          0    1    2    3
+total:    1    3    3    1
+    0:    1    1    .    .
+    1:    .    2    3    1
+
+==========================================================================================
+TYPE 23
+count = 1
+all original indices = [25]
+all ideals with this table:
+  25: (x1, x2*x3, x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 1, (1, 2): 2, (2, 3): 2, (2, 4): 1, (3, 5): 1}
+Total Betti vector = (1, 3, 3, 1)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    3    3    1
+    0:    1    1    .    .
+    1:    .    2    2    .
+    2:    .    .    1    1
+
+==========================================================================================
+TYPE 24
+count = 1
+all original indices = [26]
+all ideals with this table:
+  26: (x1, x2*x3, x2*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 1, (1, 2): 1, (1, 3): 1, (2, 3): 1, (2, 4): 2, (3, 5): 1}
+Total Betti vector = (1, 3, 3, 1)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    3    3    1
+    0:    1    1    .    .
+    1:    .    1    1    .
+    2:    .    1    2    1
+
+==========================================================================================
+TYPE 25
+count = 1
+all original indices = [27]
+all ideals with this table:
+  27: (x1, x2*x3*x4, x2*x3*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 1, (1, 3): 2, (2, 4): 3, (3, 5): 1}
+Total Betti vector = (1, 3, 3, 1)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    3    3    1
+    0:    1    1    .    .
+    1:    .    .    .    .
+    2:    .    2    3    1
+
+==========================================================================================
+TYPE 26
+count = 2
+all original indices = [28, 30]
+all ideals with this table:
+  28: (x1*x2, x1*x3, x2*x3)
+  30: (x1*x2, x1*x3, x2*x4)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 3, (2, 3): 2}
+Total Betti vector = (1, 3, 2)
+pd(S/I) = 2; reg(S/I) = 1
+          0    1    2
+total:    1    3    2
+    0:    1    .    .
+    1:    .    3    2
+
+==========================================================================================
+TYPE 27
+count = 1
+all original indices = [29]
+all ideals with this table:
+  29: (x1*x2, x1*x3, x1*x4)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 3, (2, 3): 3, (3, 4): 1}
+Total Betti vector = (1, 3, 3, 1)
+pd(S/I) = 3; reg(S/I) = 1
+          0    1    2    3
+total:    1    3    3    1
+    0:    1    .    .    .
+    1:    .    3    3    1
+
+==========================================================================================
+TYPE 28
+count = 2
+all original indices = [31, 34]
+all ideals with this table:
+  31: (x1*x2, x1*x3, x2*x3*x4)
+  34: (x1*x2, x1*x3, x2*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 2, (1, 3): 1, (2, 3): 1, (2, 4): 1}
+Total Betti vector = (1, 3, 2)
+pd(S/I) = 2; reg(S/I) = 2
+          0    1    2
+total:    1    3    2
+    0:    1    .    .
+    1:    .    2    1
+    2:    .    1    1
+
+==========================================================================================
+TYPE 29
+count = 1
+all original indices = [32]
+all ideals with this table:
+  32: (x1*x2, x1*x3, x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 3, (2, 3): 1, (2, 4): 2, (3, 5): 1}
+Total Betti vector = (1, 3, 3, 1)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    3    3    1
+    0:    1    .    .    .
+    1:    .    3    1    .
+    2:    .    .    2    1
+
+==========================================================================================
+TYPE 30
+count = 1
+all original indices = [33]
+all ideals with this table:
+  33: (x1*x2, x1*x3, x1*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 2, (1, 3): 1, (2, 3): 1, (2, 4): 2, (3, 5): 1}
+Total Betti vector = (1, 3, 3, 1)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    3    3    1
+    0:    1    .    .    .
+    1:    .    2    1    .
+    2:    .    1    2    1
+
+==========================================================================================
+TYPE 31
+count = 1
+all original indices = [35]
+all ideals with this table:
+  35: (x1*x2, x1*x3, x2*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 2, (1, 4): 1, (2, 3): 1, (2, 5): 1}
+Total Betti vector = (1, 3, 2)
+pd(S/I) = 2; reg(S/I) = 3
+          0    1    2
+total:    1    3    2
+    0:    1    .    .
+    1:    .    2    1
+    2:    .    .    .
+    3:    .    1    1
+
+==========================================================================================
+TYPE 32
+count = 1
+all original indices = [36]
+all ideals with this table:
+  36: (x1*x2, x3*x4, x1*x3*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 2, (1, 3): 1, (2, 4): 3, (3, 5): 1}
+Total Betti vector = (1, 3, 3, 1)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    3    3    1
+    0:    1    .    .    .
+    1:    .    2    .    .
+    2:    .    1    3    1
+
+==========================================================================================
+TYPE 33
+count = 3
+all original indices = [37, 39, 40]
+all ideals with this table:
+  37: (x1*x2, x1*x3*x4, x2*x3*x4)
+  39: (x1*x2, x1*x3*x4, x2*x3*x5)
+  40: (x1*x2, x1*x3*x4, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 1, (1, 3): 2, (2, 4): 2}
+Total Betti vector = (1, 3, 2)
+pd(S/I) = 2; reg(S/I) = 2
+          0    1    2
+total:    1    3    2
+    0:    1    .    .
+    1:    .    1    .
+    2:    .    2    2
+
+==========================================================================================
+TYPE 34
+count = 1
+all original indices = [38]
+all ideals with this table:
+  38: (x1*x2, x1*x3*x4, x1*x3*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 1, (1, 3): 2, (2, 4): 3, (3, 5): 1}
+Total Betti vector = (1, 3, 3, 1)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    3    3    1
+    0:    1    .    .    .
+    1:    .    1    .    .
+    2:    .    2    3    1
+
+==========================================================================================
+TYPE 35
+count = 1
+all original indices = [41]
+all ideals with this table:
+  41: (x1*x2, x1*x3*x4, x2*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 1, (1, 3): 1, (1, 4): 1, (2, 4): 1, (2, 5): 1}
+Total Betti vector = (1, 3, 2)
+pd(S/I) = 2; reg(S/I) = 3
+          0    1    2
+total:    1    3    2
+    0:    1    .    .
+    1:    .    1    .
+    2:    .    1    1
+    3:    .    1    1
+
+==========================================================================================
+TYPE 36
+count = 1
+all original indices = [42]
+all ideals with this table:
+  42: (x1*x2, x1*x3*x4*x5, x2*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 1, (1, 4): 2, (2, 5): 2}
+Total Betti vector = (1, 3, 2)
+pd(S/I) = 2; reg(S/I) = 3
+          0    1    2
+total:    1    3    2
+    0:    1    .    .
+    1:    .    1    .
+    2:    .    .    .
+    3:    .    2    2
+
+==========================================================================================
+TYPE 37
+count = 2
+all original indices = [43, 45]
+all ideals with this table:
+  43: (x1*x2*x3, x1*x2*x4, x1*x3*x4)
+  45: (x1*x2*x3, x1*x2*x4, x1*x3*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 3, (2, 4): 2}
+Total Betti vector = (1, 3, 2)
+pd(S/I) = 2; reg(S/I) = 2
+          0    1    2
+total:    1    3    2
+    0:    1    .    .
+    1:    .    .    .
+    2:    .    3    2
+
+==========================================================================================
+TYPE 38
+count = 1
+all original indices = [44]
+all ideals with this table:
+  44: (x1*x2*x3, x1*x2*x4, x1*x2*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 3, (2, 4): 3, (3, 5): 1}
+Total Betti vector = (1, 3, 3, 1)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    3    3    1
+    0:    1    .    .    .
+    1:    .    .    .    .
+    2:    .    3    3    1
+
+==========================================================================================
+TYPE 39
+count = 1
+all original indices = [46]
+all ideals with this table:
+  46: (x1*x2*x3, x1*x2*x4, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 3, (2, 4): 1, (2, 5): 1}
+Total Betti vector = (1, 3, 2)
+pd(S/I) = 2; reg(S/I) = 3
+          0    1    2
+total:    1    3    2
+    0:    1    .    .
+    1:    .    .    .
+    2:    .    3    1
+    3:    .    .    1
+
+==========================================================================================
+TYPE 40
+count = 1
+all original indices = [47]
+all ideals with this table:
+  47: (x1*x2*x3, x1*x2*x4, x1*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 2, (1, 4): 1, (2, 4): 1, (2, 5): 1}
+Total Betti vector = (1, 3, 2)
+pd(S/I) = 2; reg(S/I) = 3
+          0    1    2
+total:    1    3    2
+    0:    1    .    .
+    1:    .    .    .
+    2:    .    2    1
+    3:    .    1    1
+
+==========================================================================================
+TYPE 41
+count = 1
+all original indices = [48]
+all ideals with this table:
+  48: (x1*x2*x3, x1*x4*x5, x2*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 2, (1, 4): 1, (2, 5): 2}
+Total Betti vector = (1, 3, 2)
+pd(S/I) = 2; reg(S/I) = 3
+          0    1    2
+total:    1    3    2
+    0:    1    .    .
+    1:    .    .    .
+    2:    .    2    .
+    3:    .    1    2
+
+==========================================================================================
+TYPE 42
+count = 1
+all original indices = [49]
+all ideals with this table:
+  49: (x1*x2*x3, x1*x2*x4*x5, x1*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 1, (1, 4): 2, (2, 5): 2}
+Total Betti vector = (1, 3, 2)
+pd(S/I) = 2; reg(S/I) = 3
+          0    1    2
+total:    1    3    2
+    0:    1    .    .
+    1:    .    .    .
+    2:    .    1    .
+    3:    .    2    2
+
+==========================================================================================
+TYPE 43
+count = 1
+all original indices = [50]
+all ideals with this table:
+  50: (x1*x2*x3*x4, x1*x2*x3*x5, x1*x2*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 4): 3, (2, 5): 2}
+Total Betti vector = (1, 3, 2)
+pd(S/I) = 2; reg(S/I) = 3
+          0    1    2
+total:    1    3    2
+    0:    1    .    .
+    1:    .    .    .
+    2:    .    .    .
+    3:    .    3    2
+
+==========================================================================================
+TYPE 44
+count = 1
+all original indices = [51]
+all ideals with this table:
+  51: (x1, x2, x3, x4)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 4, (2, 2): 6, (3, 3): 4, (4, 4): 1}
+Total Betti vector = (1, 4, 6, 4, 1)
+pd(S/I) = 4; reg(S/I) = 0
+          0    1    2    3    4
+total:    1    4    6    4    1
+    0:    1    4    6    4    1
+
+==========================================================================================
+TYPE 45
+count = 1
+all original indices = [52]
+all ideals with this table:
+  52: (x1, x2, x3, x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 3, (1, 2): 1, (2, 2): 3, (2, 3): 3, (3, 3): 1, (3, 4): 3, (4, 5): 1}
+Total Betti vector = (1, 4, 6, 4, 1)
+pd(S/I) = 4; reg(S/I) = 1
+          0    1    2    3    4
+total:    1    4    6    4    1
+    0:    1    3    3    1    .
+    1:    .    1    3    3    1
+
+==========================================================================================
+TYPE 46
+count = 1
+all original indices = [53]
+all ideals with this table:
+  53: (x1, x2, x3*x4, x3*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 2, (1, 2): 2, (2, 2): 1, (2, 3): 5, (3, 4): 4, (4, 5): 1}
+Total Betti vector = (1, 4, 6, 4, 1)
+pd(S/I) = 4; reg(S/I) = 1
+          0    1    2    3    4
+total:    1    4    6    4    1
+    0:    1    2    1    .    .
+    1:    .    2    5    4    1
+
+==========================================================================================
+TYPE 47
+count = 2
+all original indices = [54, 56]
+all ideals with this table:
+  54: (x1, x2*x3, x2*x4, x3*x4)
+  56: (x1, x2*x3, x2*x4, x3*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 1, (1, 2): 3, (2, 3): 5, (3, 4): 2}
+Total Betti vector = (1, 4, 5, 2)
+pd(S/I) = 3; reg(S/I) = 1
+          0    1    2    3
+total:    1    4    5    2
+    0:    1    1    .    .
+    1:    .    3    5    2
+
+==========================================================================================
+TYPE 48
+count = 1
+all original indices = [55]
+all ideals with this table:
+  55: (x1, x2*x3, x2*x4, x2*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 1, (1, 2): 3, (2, 3): 6, (3, 4): 4, (4, 5): 1}
+Total Betti vector = (1, 4, 6, 4, 1)
+pd(S/I) = 4; reg(S/I) = 1
+          0    1    2    3    4
+total:    1    4    6    4    1
+    0:    1    1    .    .    .
+    1:    .    3    6    4    1
+
+==========================================================================================
+TYPE 49
+count = 1
+all original indices = [57]
+all ideals with this table:
+  57: (x1, x2*x3, x2*x4, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 1, (1, 2): 2, (1, 3): 1, (2, 3): 3, (2, 4): 2, (3, 4): 1, (3, 5): 1}
+Total Betti vector = (1, 4, 5, 2)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    4    5    2
+    0:    1    1    .    .
+    1:    .    2    3    1
+    2:    .    1    2    1
+
+==========================================================================================
+TYPE 50
+count = 1
+all original indices = [58]
+all ideals with this table:
+  58: (x1, x2*x3, x2*x4*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 1, (1, 2): 1, (1, 3): 2, (2, 3): 1, (2, 4): 4, (3, 5): 2}
+Total Betti vector = (1, 4, 5, 2)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    4    5    2
+    0:    1    1    .    .
+    1:    .    1    1    .
+    2:    .    2    4    2
+
+==========================================================================================
+TYPE 51
+count = 1
+all original indices = [59]
+all ideals with this table:
+  59: (x1, x2*x3*x4, x2*x3*x5, x2*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 1, (1, 3): 3, (2, 4): 5, (3, 5): 2}
+Total Betti vector = (1, 4, 5, 2)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    4    5    2
+    0:    1    1    .    .
+    1:    .    .    .    .
+    2:    .    3    5    2
+
+==========================================================================================
+TYPE 52
+count = 3
+all original indices = [60, 65, 68]
+all ideals with this table:
+  60: (x1*x2, x1*x3, x2*x3, x1*x4)
+  65: (x1*x2, x1*x3, x1*x4, x2*x5)
+  68: (x1*x2, x1*x3, x2*x4, x3*x4)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 4, (2, 3): 4, (3, 4): 1}
+Total Betti vector = (1, 4, 4, 1)
+pd(S/I) = 3; reg(S/I) = 1
+          0    1    2    3
+total:    1    4    4    1
+    0:    1    .    .    .
+    1:    .    4    4    1
+
+==========================================================================================
+TYPE 53
+count = 1
+all original indices = [61]
+all ideals with this table:
+  61: (x1*x2, x1*x3, x2*x3, x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 4, (2, 3): 2, (2, 4): 3, (3, 5): 2}
+Total Betti vector = (1, 4, 5, 2)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    4    5    2
+    0:    1    .    .    .
+    1:    .    4    2    .
+    2:    .    .    3    2
+
+==========================================================================================
+TYPE 54
+count = 3
+all original indices = [62, 70, 71]
+all ideals with this table:
+  62: (x1*x2, x1*x3, x2*x3, x1*x4*x5)
+  70: (x1*x2, x1*x3, x2*x4, x2*x3*x5)
+  71: (x1*x2, x1*x3, x2*x4, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 3, (1, 3): 1, (2, 3): 2, (2, 4): 2, (3, 5): 1}
+Total Betti vector = (1, 4, 4, 1)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    4    4    1
+    0:    1    .    .    .
+    1:    .    3    2    .
+    2:    .    1    2    1
+
+==========================================================================================
+TYPE 55
+count = 2
+all original indices = [63, 66]
+all ideals with this table:
+  63: (x1*x2, x1*x3, x1*x4, x2*x3*x4)
+  66: (x1*x2, x1*x3, x1*x4, x2*x3*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 3, (1, 3): 1, (2, 3): 3, (2, 4): 1, (3, 4): 1}
+Total Betti vector = (1, 4, 4, 1)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    4    4    1
+    0:    1    .    .    .
+    1:    .    3    3    1
+    2:    .    1    1    .
+
+==========================================================================================
+TYPE 56
+count = 1
+all original indices = [64]
+all ideals with this table:
+  64: (x1*x2, x1*x3, x1*x4, x1*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 4, (2, 3): 6, (3, 4): 4, (4, 5): 1}
+Total Betti vector = (1, 4, 6, 4, 1)
+pd(S/I) = 4; reg(S/I) = 1
+          0    1    2    3    4
+total:    1    4    6    4    1
+    0:    1    .    .    .    .
+    1:    .    4    6    4    1
+
+==========================================================================================
+TYPE 57
+count = 1
+all original indices = [67]
+all ideals with this table:
+  67: (x1*x2, x1*x3, x1*x4, x2*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 3, (1, 4): 1, (2, 3): 3, (2, 5): 1, (3, 4): 1}
+Total Betti vector = (1, 4, 4, 1)
+pd(S/I) = 3; reg(S/I) = 3
+          0    1    2    3
+total:    1    4    4    1
+    0:    1    .    .    .
+    1:    .    3    3    1
+    2:    .    .    .    .
+    3:    .    1    1    .
+
+==========================================================================================
+TYPE 58
+count = 1
+all original indices = [69]
+all ideals with this table:
+  69: (x1*x2, x1*x3, x2*x4, x3*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 4, (2, 3): 3, (2, 4): 1, (3, 5): 1}
+Total Betti vector = (1, 4, 4, 1)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    4    4    1
+    0:    1    .    .    .
+    1:    .    4    3    .
+    2:    .    .    1    1
+
+==========================================================================================
+TYPE 59
+count = 5
+all original indices = [72, 74, 75, 76, 78]
+all ideals with this table:
+  72: (x1*x2, x1*x3, x2*x3*x4, x2*x3*x5)
+  74: (x1*x2, x1*x3, x2*x3*x4, x1*x4*x5)
+  75: (x1*x2, x1*x3, x2*x3*x4, x2*x4*x5)
+  76: (x1*x2, x1*x3, x1*x4*x5, x2*x4*x5)
+  78: (x1*x2, x1*x3, x2*x4*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 2, (1, 3): 2, (2, 3): 1, (2, 4): 3, (3, 5): 1}
+Total Betti vector = (1, 4, 4, 1)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    4    4    1
+    0:    1    .    .    .
+    1:    .    2    1    .
+    2:    .    2    3    1
+
+==========================================================================================
+TYPE 60
+count = 1
+all original indices = [73]
+all ideals with this table:
+  73: (x1*x2, x1*x3, x2*x3*x4, x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 3, (1, 3): 1, (2, 3): 1, (2, 4): 4, (3, 5): 2}
+Total Betti vector = (1, 4, 5, 2)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    4    5    2
+    0:    1    .    .    .
+    1:    .    3    1    .
+    2:    .    1    4    2
+
+==========================================================================================
+TYPE 61
+count = 1
+all original indices = [77]
+all ideals with this table:
+  77: (x1*x2, x1*x3, x1*x4*x5, x2*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 2, (1, 3): 1, (1, 4): 1, (2, 3): 1, (2, 4): 2, (2, 5): 1, (3, 5): 1}
+Total Betti vector = (1, 4, 4, 1)
+pd(S/I) = 3; reg(S/I) = 3
+          0    1    2    3
+total:    1    4    4    1
+    0:    1    .    .    .
+    1:    .    2    1    .
+    2:    .    1    2    1
+    3:    .    1    1    .
+
+==========================================================================================
+TYPE 62
+count = 2
+all original indices = [79, 80]
+all ideals with this table:
+  79: (x1*x2, x3*x4, x1*x3*x5, x2*x3*x5)
+  80: (x1*x2, x3*x4, x1*x3*x5, x2*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 2, (1, 3): 2, (2, 4): 5, (3, 5): 2}
+Total Betti vector = (1, 4, 5, 2)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    4    5    2
+    0:    1    .    .    .
+    1:    .    2    .    .
+    2:    .    2    5    2
+
+==========================================================================================
+TYPE 63
+count = 5
+all original indices = [81, 82, 84, 85, 87]
+all ideals with this table:
+  81: (x1*x2, x1*x3*x4, x2*x3*x4, x1*x3*x5)
+  82: (x1*x2, x1*x3*x4, x2*x3*x4, x3*x4*x5)
+  84: (x1*x2, x1*x3*x4, x1*x3*x5, x2*x4*x5)
+  85: (x1*x2, x1*x3*x4, x1*x3*x5, x3*x4*x5)
+  87: (x1*x2, x1*x3*x4, x2*x3*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 1, (1, 3): 3, (2, 4): 4, (3, 5): 1}
+Total Betti vector = (1, 4, 4, 1)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    4    4    1
+    0:    1    .    .    .
+    1:    .    1    .    .
+    2:    .    3    4    1
+
+==========================================================================================
+TYPE 64
+count = 1
+all original indices = [83]
+all ideals with this table:
+  83: (x1*x2, x1*x3*x4, x1*x3*x5, x1*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 1, (1, 3): 3, (2, 4): 5, (3, 5): 2}
+Total Betti vector = (1, 4, 5, 2)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    4    5    2
+    0:    1    .    .    .
+    1:    .    1    .    .
+    2:    .    3    5    2
+
+==========================================================================================
+TYPE 65
+count = 1
+all original indices = [86]
+all ideals with this table:
+  86: (x1*x2, x1*x3*x4, x1*x3*x5, x2*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 1, (1, 3): 2, (1, 4): 1, (2, 4): 3, (2, 5): 1, (3, 5): 1}
+Total Betti vector = (1, 4, 4, 1)
+pd(S/I) = 3; reg(S/I) = 3
+          0    1    2    3
+total:    1    4    4    1
+    0:    1    .    .    .
+    1:    .    1    .    .
+    2:    .    2    3    1
+    3:    .    1    1    .
+
+==========================================================================================
+TYPE 66
+count = 3
+all original indices = [88, 90, 95]
+all ideals with this table:
+  88: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x2*x3*x4)
+  90: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x2*x3*x5)
+  95: (x1*x2*x3, x1*x2*x4, x1*x3*x5, x2*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 4, (2, 4): 3}
+Total Betti vector = (1, 4, 3)
+pd(S/I) = 2; reg(S/I) = 2
+          0    1    2
+total:    1    4    3
+    0:    1    .    .
+    1:    .    .    .
+    2:    .    4    3
+
+==========================================================================================
+TYPE 67
+count = 2
+all original indices = [89, 94]
+all ideals with this table:
+  89: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x1*x2*x5)
+  94: (x1*x2*x3, x1*x2*x4, x1*x3*x5, x1*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 4, (2, 4): 4, (3, 5): 1}
+Total Betti vector = (1, 4, 4, 1)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    4    4    1
+    0:    1    .    .    .
+    1:    .    .    .    .
+    2:    .    4    4    1
+
+==========================================================================================
+TYPE 68
+count = 2
+all original indices = [91, 96]
+all ideals with this table:
+  91: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x2*x3*x4*x5)
+  96: (x1*x2*x3, x1*x2*x4, x1*x3*x5, x2*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 3, (1, 4): 1, (2, 4): 2, (2, 5): 1}
+Total Betti vector = (1, 4, 3)
+pd(S/I) = 2; reg(S/I) = 3
+          0    1    2
+total:    1    4    3
+    0:    1    .    .
+    1:    .    .    .
+    2:    .    3    2
+    3:    .    1    1
+
+==========================================================================================
+TYPE 69
+count = 1
+all original indices = [92]
+all ideals with this table:
+  92: (x1*x2*x3, x1*x2*x4, x1*x2*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 4, (2, 4): 3, (2, 5): 1, (3, 5): 1}
+Total Betti vector = (1, 4, 4, 1)
+pd(S/I) = 3; reg(S/I) = 3
+          0    1    2    3
+total:    1    4    4    1
+    0:    1    .    .    .
+    1:    .    .    .    .
+    2:    .    4    3    1
+    3:    .    .    1    .
+
+==========================================================================================
+TYPE 70
+count = 1
+all original indices = [93]
+all ideals with this table:
+  93: (x1*x2*x3, x1*x2*x4, x1*x2*x5, x1*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 3, (1, 4): 1, (2, 4): 3, (2, 5): 1, (3, 5): 1}
+Total Betti vector = (1, 4, 4, 1)
+pd(S/I) = 3; reg(S/I) = 3
+          0    1    2    3
+total:    1    4    4    1
+    0:    1    .    .    .
+    1:    .    .    .    .
+    2:    .    3    3    1
+    3:    .    1    1    .
+
+==========================================================================================
+TYPE 71
+count = 1
+all original indices = [97]
+all ideals with this table:
+  97: (x1*x2*x3, x1*x2*x4, x1*x3*x4*x5, x2*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 2, (1, 4): 2, (2, 4): 1, (2, 5): 2}
+Total Betti vector = (1, 4, 3)
+pd(S/I) = 2; reg(S/I) = 3
+          0    1    2
+total:    1    4    3
+    0:    1    .    .
+    1:    .    .    .
+    2:    .    2    1
+    3:    .    2    2
+
+==========================================================================================
+TYPE 72
+count = 1
+all original indices = [98]
+all ideals with this table:
+  98: (x1*x2*x3, x1*x2*x4*x5, x1*x3*x4*x5, x2*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 1, (1, 4): 3, (2, 5): 3}
+Total Betti vector = (1, 4, 3)
+pd(S/I) = 2; reg(S/I) = 3
+          0    1    2
+total:    1    4    3
+    0:    1    .    .
+    1:    .    .    .
+    2:    .    1    .
+    3:    .    3    3
+
+==========================================================================================
+TYPE 73
+count = 1
+all original indices = [99]
+all ideals with this table:
+  99: (x1*x2*x3*x4, x1*x2*x3*x5, x1*x2*x4*x5, x1*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 4): 4, (2, 5): 3}
+Total Betti vector = (1, 4, 3)
+pd(S/I) = 2; reg(S/I) = 3
+          0    1    2
+total:    1    4    3
+    0:    1    .    .
+    1:    .    .    .
+    2:    .    .    .
+    3:    .    4    3
+
+==========================================================================================
+TYPE 74
+count = 1
+all original indices = [100]
+all ideals with this table:
+  100: (x1, x2, x3, x4, x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 5, (2, 2): 10, (3, 3): 10, (4, 4): 5, (5, 5): 1}
+Total Betti vector = (1, 5, 10, 10, 5, 1)
+pd(S/I) = 5; reg(S/I) = 0
+          0    1    2    3    4    5
+total:    1    5   10   10    5    1
+    0:    1    5   10   10    5    1
+
+==========================================================================================
+TYPE 75
+count = 1
+all original indices = [101]
+all ideals with this table:
+  101: (x1, x2, x3*x4, x3*x5, x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 2, (1, 2): 3, (2, 2): 1, (2, 3): 8, (3, 4): 7, (4, 5): 2}
+Total Betti vector = (1, 5, 9, 7, 2)
+pd(S/I) = 4; reg(S/I) = 1
+          0    1    2    3    4
+total:    1    5    9    7    2
+    0:    1    2    1    .    .
+    1:    .    3    8    7    2
+
+==========================================================================================
+TYPE 76
+count = 2
+all original indices = [102, 104]
+all ideals with this table:
+  102: (x1, x2*x3, x2*x4, x3*x4, x2*x5)
+  104: (x1, x2*x3, x2*x4, x3*x5, x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 1, (1, 2): 4, (2, 3): 8, (3, 4): 5, (4, 5): 1}
+Total Betti vector = (1, 5, 8, 5, 1)
+pd(S/I) = 4; reg(S/I) = 1
+          0    1    2    3    4
+total:    1    5    8    5    1
+    0:    1    1    .    .    .
+    1:    .    4    8    5    1
+
+==========================================================================================
+TYPE 77
+count = 1
+all original indices = [103]
+all ideals with this table:
+  103: (x1, x2*x3, x2*x4, x2*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 1, (1, 2): 3, (1, 3): 1, (2, 3): 6, (2, 4): 2, (3, 4): 4, (3, 5): 1, (4, 5): 1}
+Total Betti vector = (1, 5, 8, 5, 1)
+pd(S/I) = 4; reg(S/I) = 2
+          0    1    2    3    4
+total:    1    5    8    5    1
+    0:    1    1    .    .    .
+    1:    .    3    6    4    1
+    2:    .    1    2    1    .
+
+==========================================================================================
+TYPE 78
+count = 1
+all original indices = [105]
+all ideals with this table:
+  105: (x1, x2*x3*x4, x2*x3*x5, x2*x4*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 1, (1, 3): 4, (2, 4): 7, (3, 5): 3}
+Total Betti vector = (1, 5, 7, 3)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    5    7    3
+    0:    1    1    .    .
+    1:    .    .    .    .
+    2:    .    4    7    3
+
+==========================================================================================
+TYPE 79
+count = 3
+all original indices = [106, 108, 116]
+all ideals with this table:
+  106: (x1*x2, x1*x3, x2*x3, x1*x4, x2*x4)
+  108: (x1*x2, x1*x3, x2*x3, x1*x4, x2*x5)
+  116: (x1*x2, x1*x3, x1*x4, x2*x5, x3*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 5, (2, 3): 6, (3, 4): 2}
+Total Betti vector = (1, 5, 6, 2)
+pd(S/I) = 3; reg(S/I) = 1
+          0    1    2    3
+total:    1    5    6    2
+    0:    1    .    .    .
+    1:    .    5    6    2
+
+==========================================================================================
+TYPE 80
+count = 1
+all original indices = [107]
+all ideals with this table:
+  107: (x1*x2, x1*x3, x2*x3, x1*x4, x1*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 5, (2, 3): 7, (3, 4): 4, (4, 5): 1}
+Total Betti vector = (1, 5, 7, 4, 1)
+pd(S/I) = 4; reg(S/I) = 1
+          0    1    2    3    4
+total:    1    5    7    4    1
+    0:    1    .    .    .    .
+    1:    .    5    7    4    1
+
+==========================================================================================
+TYPE 81
+count = 1
+all original indices = [109]
+all ideals with this table:
+  109: (x1*x2, x1*x3, x2*x3, x1*x4, x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 5, (2, 3): 5, (2, 4): 1, (3, 4): 1, (3, 5): 1}
+Total Betti vector = (1, 5, 6, 2)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    5    6    2
+    0:    1    .    .    .
+    1:    .    5    5    1
+    2:    .    .    1    1
+
+==========================================================================================
+TYPE 82
+count = 4
+all original indices = [110, 113, 117, 119]
+all ideals with this table:
+  110: (x1*x2, x1*x3, x2*x3, x1*x4, x2*x4*x5)
+  113: (x1*x2, x1*x3, x1*x4, x2*x3*x4, x2*x5)
+  117: (x1*x2, x1*x3, x1*x4, x2*x5, x3*x4*x5)
+  119: (x1*x2, x1*x3, x2*x4, x3*x4, x2*x3*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 4, (1, 3): 1, (2, 3): 4, (2, 4): 2, (3, 4): 1, (3, 5): 1}
+Total Betti vector = (1, 5, 6, 2)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    5    6    2
+    0:    1    .    .    .
+    1:    .    4    4    1
+    2:    .    1    2    1
+
+==========================================================================================
+TYPE 83
+count = 3
+all original indices = [111, 122, 123]
+all ideals with this table:
+  111: (x1*x2, x1*x3, x2*x3, x1*x4*x5, x2*x4*x5)
+  122: (x1*x2, x1*x3, x2*x4, x2*x3*x5, x1*x4*x5)
+  123: (x1*x2, x1*x3, x2*x4, x2*x3*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 3, (1, 3): 2, (2, 3): 2, (2, 4): 4, (3, 5): 2}
+Total Betti vector = (1, 5, 6, 2)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    5    6    2
+    0:    1    .    .    .
+    1:    .    3    2    .
+    2:    .    2    4    2
+
+==========================================================================================
+TYPE 84
+count = 1
+all original indices = [112]
+all ideals with this table:
+  112: (x1*x2, x1*x3, x1*x4, x2*x3*x4, x1*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 4, (1, 3): 1, (2, 3): 6, (2, 4): 1, (3, 4): 4, (4, 5): 1}
+Total Betti vector = (1, 5, 7, 4, 1)
+pd(S/I) = 4; reg(S/I) = 2
+          0    1    2    3    4
+total:    1    5    7    4    1
+    0:    1    .    .    .    .
+    1:    .    4    6    4    1
+    2:    .    1    1    .    .
+
+==========================================================================================
+TYPE 85
+count = 2
+all original indices = [114, 118]
+all ideals with this table:
+  114: (x1*x2, x1*x3, x1*x4, x2*x3*x4, x2*x3*x5)
+  118: (x1*x2, x1*x3, x1*x4, x2*x3*x5, x2*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 3, (1, 3): 2, (2, 3): 3, (2, 4): 3, (3, 4): 1, (3, 5): 1}
+Total Betti vector = (1, 5, 6, 2)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    5    6    2
+    0:    1    .    .    .
+    1:    .    3    3    1
+    2:    .    2    3    1
+
+==========================================================================================
+TYPE 86
+count = 1
+all original indices = [115]
+all ideals with this table:
+  115: (x1*x2, x1*x3, x1*x4, x1*x5, x2*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 4, (1, 4): 1, (2, 3): 6, (2, 5): 1, (3, 4): 4, (4, 5): 1}
+Total Betti vector = (1, 5, 7, 4, 1)
+pd(S/I) = 4; reg(S/I) = 3
+          0    1    2    3    4
+total:    1    5    7    4    1
+    0:    1    .    .    .    .
+    1:    .    4    6    4    1
+    2:    .    .    .    .    .
+    3:    .    1    1    .    .
+
+==========================================================================================
+TYPE 87
+count = 1
+all original indices = [120]
+all ideals with this table:
+  120: (x1*x2, x1*x3, x2*x4, x3*x5, x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 5, (2, 3): 5, (3, 5): 1}
+Total Betti vector = (1, 5, 5, 1)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    5    5    1
+    0:    1    .    .    .
+    1:    .    5    5    .
+    2:    .    .    .    1
+
+==========================================================================================
+TYPE 88
+count = 1
+all original indices = [121]
+all ideals with this table:
+  121: (x1*x2, x1*x3, x2*x4, x3*x5, x1*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 4, (1, 3): 1, (2, 3): 3, (2, 4): 3, (3, 5): 2}
+Total Betti vector = (1, 5, 6, 2)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    5    6    2
+    0:    1    .    .    .
+    1:    .    4    3    .
+    2:    .    1    3    2
+
+==========================================================================================
+TYPE 89
+count = 1
+all original indices = [124]
+all ideals with this table:
+  124: (x1*x2, x1*x3, x2*x3*x4, x2*x3*x5, x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 3, (1, 3): 2, (2, 3): 1, (2, 4): 6, (3, 5): 3}
+Total Betti vector = (1, 5, 7, 3)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    5    7    3
+    0:    1    .    .    .
+    1:    .    3    1    .
+    2:    .    2    6    3
+
+==========================================================================================
+TYPE 90
+count = 5
+all original indices = [125, 126, 127, 128, 129]
+all ideals with this table:
+  125: (x1*x2, x1*x3, x2*x3*x4, x2*x3*x5, x1*x4*x5)
+  126: (x1*x2, x1*x3, x2*x3*x4, x2*x3*x5, x2*x4*x5)
+  127: (x1*x2, x1*x3, x2*x3*x4, x1*x4*x5, x2*x4*x5)
+  128: (x1*x2, x1*x3, x2*x3*x4, x2*x4*x5, x3*x4*x5)
+  129: (x1*x2, x1*x3, x1*x4*x5, x2*x4*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 2, (1, 3): 3, (2, 3): 1, (2, 4): 5, (3, 5): 2}
+Total Betti vector = (1, 5, 6, 2)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    5    6    2
+    0:    1    .    .    .
+    1:    .    2    1    .
+    2:    .    3    5    2
+
+==========================================================================================
+TYPE 91
+count = 1
+all original indices = [130]
+all ideals with this table:
+  130: (x1*x2, x3*x4, x1*x3*x5, x2*x3*x5, x1*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 2, (1, 3): 3, (2, 4): 7, (3, 5): 3}
+Total Betti vector = (1, 5, 7, 3)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    5    7    3
+    0:    1    .    .    .
+    1:    .    2    .    .
+    2:    .    3    7    3
+
+==========================================================================================
+TYPE 92
+count = 6
+all original indices = [131, 132, 133, 134, 135, 137]
+all ideals with this table:
+  131: (x1*x2, x1*x3*x4, x2*x3*x4, x1*x3*x5, x2*x3*x5)
+  132: (x1*x2, x1*x3*x4, x2*x3*x4, x1*x3*x5, x1*x4*x5)
+  133: (x1*x2, x1*x3*x4, x2*x3*x4, x1*x3*x5, x2*x4*x5)
+  134: (x1*x2, x1*x3*x4, x2*x3*x4, x1*x3*x5, x3*x4*x5)
+  135: (x1*x2, x1*x3*x4, x1*x3*x5, x1*x4*x5, x3*x4*x5)
+  137: (x1*x2, x1*x3*x4, x1*x3*x5, x2*x4*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 1, (1, 3): 4, (2, 4): 6, (3, 5): 2}
+Total Betti vector = (1, 5, 6, 2)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    5    6    2
+    0:    1    .    .    .
+    1:    .    1    .    .
+    2:    .    4    6    2
+
+==========================================================================================
+TYPE 93
+count = 1
+all original indices = [136]
+all ideals with this table:
+  136: (x1*x2, x1*x3*x4, x1*x3*x5, x1*x4*x5, x2*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 1, (1, 3): 3, (1, 4): 1, (2, 4): 5, (2, 5): 1, (3, 5): 2}
+Total Betti vector = (1, 5, 6, 2)
+pd(S/I) = 3; reg(S/I) = 3
+          0    1    2    3
+total:    1    5    6    2
+    0:    1    .    .    .
+    1:    .    1    .    .
+    2:    .    3    5    2
+    3:    .    1    1    .
+
+==========================================================================================
+TYPE 94
+count = 5
+all original indices = [138, 140, 141, 143, 146]
+all ideals with this table:
+  138: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x2*x3*x4, x1*x2*x5)
+  140: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x1*x2*x5, x2*x3*x5)
+  141: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x1*x2*x5, x3*x4*x5)
+  143: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x2*x3*x5, x2*x4*x5)
+  146: (x1*x2*x3, x1*x2*x4, x1*x3*x5, x2*x4*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 5, (2, 4): 5, (3, 5): 1}
+Total Betti vector = (1, 5, 5, 1)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    5    5    1
+    0:    1    .    .    .
+    1:    .    .    .    .
+    2:    .    5    5    1
+
+==========================================================================================
+TYPE 95
+count = 1
+all original indices = [139]
+all ideals with this table:
+  139: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x1*x2*x5, x1*x3*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 5, (2, 4): 6, (3, 5): 2}
+Total Betti vector = (1, 5, 6, 2)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    5    6    2
+    0:    1    .    .    .
+    1:    .    .    .    .
+    2:    .    5    6    2
+
+==========================================================================================
+TYPE 96
+count = 2
+all original indices = [142, 145]
+all ideals with this table:
+  142: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x1*x2*x5, x2*x3*x4*x5)
+  145: (x1*x2*x3, x1*x2*x4, x1*x3*x5, x1*x4*x5, x2*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 4, (1, 4): 1, (2, 4): 4, (2, 5): 1, (3, 5): 1}
+Total Betti vector = (1, 5, 5, 1)
+pd(S/I) = 3; reg(S/I) = 3
+          0    1    2    3
+total:    1    5    5    1
+    0:    1    .    .    .
+    1:    .    .    .    .
+    2:    .    4    4    1
+    3:    .    1    1    .
+
+==========================================================================================
+TYPE 97
+count = 1
+all original indices = [144]
+all ideals with this table:
+  144: (x1*x2*x3, x1*x2*x4, x1*x2*x5, x1*x3*x4*x5, x2*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 3, (1, 4): 2, (2, 4): 3, (2, 5): 2, (3, 5): 1}
+Total Betti vector = (1, 5, 5, 1)
+pd(S/I) = 3; reg(S/I) = 3
+          0    1    2    3
+total:    1    5    5    1
+    0:    1    .    .    .
+    1:    .    .    .    .
+    2:    .    3    3    1
+    3:    .    2    2    .
+
+==========================================================================================
+TYPE 98
+count = 1
+all original indices = [147]
+all ideals with this table:
+  147: (x1*x2*x3*x4, x1*x2*x3*x5, x1*x2*x4*x5, x1*x3*x4*x5, x2*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 4): 5, (2, 5): 4}
+Total Betti vector = (1, 5, 4)
+pd(S/I) = 2; reg(S/I) = 3
+          0    1    2
+total:    1    5    4
+    0:    1    .    .
+    1:    .    .    .
+    2:    .    .    .
+    3:    .    5    4
+
+==========================================================================================
+TYPE 99
+count = 1
+all original indices = [148]
+all ideals with this table:
+  148: (x1, x2*x3, x2*x4, x3*x4, x2*x5, x3*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 1, (1, 2): 5, (2, 3): 11, (3, 4): 8, (4, 5): 2}
+Total Betti vector = (1, 6, 11, 8, 2)
+pd(S/I) = 4; reg(S/I) = 1
+          0    1    2    3    4
+total:    1    6   11    8    2
+    0:    1    1    .    .    .
+    1:    .    5   11    8    2
+
+==========================================================================================
+TYPE 100
+count = 3
+all original indices = [149, 151, 155]
+all ideals with this table:
+  149: (x1*x2, x1*x3, x2*x3, x1*x4, x2*x4, x3*x4)
+  151: (x1*x2, x1*x3, x2*x3, x1*x4, x2*x4, x3*x5)
+  155: (x1*x2, x1*x3, x2*x3, x1*x4, x2*x5, x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 6, (2, 3): 8, (3, 4): 3}
+Total Betti vector = (1, 6, 8, 3)
+pd(S/I) = 3; reg(S/I) = 1
+          0    1    2    3
+total:    1    6    8    3
+    0:    1    .    .    .
+    1:    .    6    8    3
+
+==========================================================================================
+TYPE 101
+count = 2
+all original indices = [150, 163]
+all ideals with this table:
+  150: (x1*x2, x1*x3, x2*x3, x1*x4, x2*x4, x1*x5)
+  163: (x1*x2, x1*x3, x1*x4, x2*x5, x3*x5, x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 6, (2, 3): 9, (3, 4): 5, (4, 5): 1}
+Total Betti vector = (1, 6, 9, 5, 1)
+pd(S/I) = 4; reg(S/I) = 1
+          0    1    2    3    4
+total:    1    6    9    5    1
+    0:    1    .    .    .    .
+    1:    .    6    9    5    1
+
+==========================================================================================
+TYPE 102
+count = 3
+all original indices = [152, 156, 160]
+all ideals with this table:
+  152: (x1*x2, x1*x3, x2*x3, x1*x4, x2*x4, x3*x4*x5)
+  156: (x1*x2, x1*x3, x2*x3, x1*x4, x2*x5, x3*x4*x5)
+  160: (x1*x2, x1*x3, x1*x4, x2*x3*x4, x2*x5, x3*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 5, (1, 3): 1, (2, 3): 6, (2, 4): 2, (3, 4): 2, (3, 5): 1}
+Total Betti vector = (1, 6, 8, 3)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    6    8    3
+    0:    1    .    .    .
+    1:    .    5    6    2
+    2:    .    1    2    1
+
+==========================================================================================
+TYPE 103
+count = 1
+all original indices = [153]
+all ideals with this table:
+  153: (x1*x2, x1*x3, x2*x3, x1*x4, x1*x5, x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 6, (2, 3): 8, (2, 4): 1, (3, 4): 4, (3, 5): 1, (4, 5): 1}
+Total Betti vector = (1, 6, 9, 5, 1)
+pd(S/I) = 4; reg(S/I) = 2
+          0    1    2    3    4
+total:    1    6    9    5    1
+    0:    1    .    .    .    .
+    1:    .    6    8    4    1
+    2:    .    .    1    1    .
+
+==========================================================================================
+TYPE 104
+count = 1
+all original indices = [154]
+all ideals with this table:
+  154: (x1*x2, x1*x3, x2*x3, x1*x4, x1*x5, x2*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 5, (1, 3): 1, (2, 3): 7, (2, 4): 2, (3, 4): 4, (3, 5): 1, (4, 5): 1}
+Total Betti vector = (1, 6, 9, 5, 1)
+pd(S/I) = 4; reg(S/I) = 2
+          0    1    2    3    4
+total:    1    6    9    5    1
+    0:    1    .    .    .    .
+    1:    .    5    7    4    1
+    2:    .    1    2    1    .
+
+==========================================================================================
+TYPE 105
+count = 3
+all original indices = [157, 161, 165]
+all ideals with this table:
+  157: (x1*x2, x1*x3, x2*x3, x1*x4, x2*x4*x5, x3*x4*x5)
+  161: (x1*x2, x1*x3, x1*x4, x2*x3*x4, x2*x5, x3*x4*x5)
+  165: (x1*x2, x1*x3, x2*x4, x3*x4, x2*x3*x5, x1*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 4, (1, 3): 2, (2, 3): 4, (2, 4): 4, (3, 4): 1, (3, 5): 2}
+Total Betti vector = (1, 6, 8, 3)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    6    8    3
+    0:    1    .    .    .
+    1:    .    4    4    1
+    2:    .    2    4    2
+
+==========================================================================================
+TYPE 106
+count = 2
+all original indices = [158, 166]
+all ideals with this table:
+  158: (x1*x2, x1*x3, x2*x3, x1*x4*x5, x2*x4*x5, x3*x4*x5)
+  166: (x1*x2, x1*x3, x2*x4, x2*x3*x5, x1*x4*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 3, (1, 3): 3, (2, 3): 2, (2, 4): 6, (3, 5): 3}
+Total Betti vector = (1, 6, 8, 3)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    6    8    3
+    0:    1    .    .    .
+    1:    .    3    2    .
+    2:    .    3    6    3
+
+==========================================================================================
+TYPE 107
+count = 1
+all original indices = [159]
+all ideals with this table:
+  159: (x1*x2, x1*x3, x1*x4, x2*x3*x4, x1*x5, x2*x3*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 4, (1, 3): 2, (2, 3): 6, (2, 4): 3, (3, 4): 4, (3, 5): 1, (4, 5): 1}
+Total Betti vector = (1, 6, 9, 5, 1)
+pd(S/I) = 4; reg(S/I) = 2
+          0    1    2    3    4
+total:    1    6    9    5    1
+    0:    1    .    .    .    .
+    1:    .    4    6    4    1
+    2:    .    2    3    1    .
+
+==========================================================================================
+TYPE 108
+count = 2
+all original indices = [162, 164]
+all ideals with this table:
+  162: (x1*x2, x1*x3, x1*x4, x2*x3*x4, x2*x3*x5, x2*x4*x5)
+  164: (x1*x2, x1*x3, x1*x4, x2*x3*x5, x2*x4*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 3, (1, 3): 3, (2, 3): 3, (2, 4): 5, (3, 4): 1, (3, 5): 2}
+Total Betti vector = (1, 6, 8, 3)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    6    8    3
+    0:    1    .    .    .
+    1:    .    3    3    1
+    2:    .    3    5    2
+
+==========================================================================================
+TYPE 109
+count = 3
+all original indices = [167, 168, 169]
+all ideals with this table:
+  167: (x1*x2, x1*x3, x2*x3*x4, x2*x3*x5, x1*x4*x5, x2*x4*x5)
+  168: (x1*x2, x1*x3, x2*x3*x4, x2*x3*x5, x2*x4*x5, x3*x4*x5)
+  169: (x1*x2, x1*x3, x2*x3*x4, x1*x4*x5, x2*x4*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 2, (1, 3): 4, (2, 3): 1, (2, 4): 7, (3, 5): 3}
+Total Betti vector = (1, 6, 8, 3)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    6    8    3
+    0:    1    .    .    .
+    1:    .    2    1    .
+    2:    .    4    7    3
+
+==========================================================================================
+TYPE 110
+count = 1
+all original indices = [170]
+all ideals with this table:
+  170: (x1*x2, x3*x4, x1*x3*x5, x2*x3*x5, x1*x4*x5, x2*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 2, (1, 3): 4, (2, 4): 9, (3, 5): 4}
+Total Betti vector = (1, 6, 9, 4)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    6    9    4
+    0:    1    .    .    .
+    1:    .    2    .    .
+    2:    .    4    9    4
+
+==========================================================================================
+TYPE 111
+count = 4
+all original indices = [171, 172, 173, 174]
+all ideals with this table:
+  171: (x1*x2, x1*x3*x4, x2*x3*x4, x1*x3*x5, x2*x3*x5, x1*x4*x5)
+  172: (x1*x2, x1*x3*x4, x2*x3*x4, x1*x3*x5, x2*x3*x5, x3*x4*x5)
+  173: (x1*x2, x1*x3*x4, x2*x3*x4, x1*x3*x5, x1*x4*x5, x3*x4*x5)
+  174: (x1*x2, x1*x3*x4, x2*x3*x4, x1*x3*x5, x2*x4*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 1, (1, 3): 5, (2, 4): 8, (3, 5): 3}
+Total Betti vector = (1, 6, 8, 3)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    6    8    3
+    0:    1    .    .    .
+    1:    .    1    .    .
+    2:    .    5    8    3
+
+==========================================================================================
+TYPE 112
+count = 5
+all original indices = [175, 176, 178, 180, 181]
+all ideals with this table:
+  175: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x2*x3*x4, x1*x2*x5, x1*x3*x5)
+  176: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x2*x3*x4, x1*x2*x5, x3*x4*x5)
+  178: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x1*x2*x5, x1*x3*x5, x2*x4*x5)
+  180: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x1*x2*x5, x2*x3*x5, x3*x4*x5)
+  181: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x2*x3*x5, x2*x4*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 6, (2, 4): 7, (3, 5): 2}
+Total Betti vector = (1, 6, 7, 2)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    6    7    2
+    0:    1    .    .    .
+    1:    .    .    .    .
+    2:    .    6    7    2
+
+==========================================================================================
+TYPE 113
+count = 1
+all original indices = [177]
+all ideals with this table:
+  177: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x1*x2*x5, x1*x3*x5, x1*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 6, (2, 4): 8, (3, 5): 3}
+Total Betti vector = (1, 6, 8, 3)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    6    8    3
+    0:    1    .    .    .
+    1:    .    .    .    .
+    2:    .    6    8    3
+
+==========================================================================================
+TYPE 114
+count = 1
+all original indices = [179]
+all ideals with this table:
+  179: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x1*x2*x5, x1*x3*x5, x2*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 5, (1, 4): 1, (2, 4): 6, (2, 5): 1, (3, 5): 2}
+Total Betti vector = (1, 6, 7, 2)
+pd(S/I) = 3; reg(S/I) = 3
+          0    1    2    3
+total:    1    6    7    2
+    0:    1    .    .    .
+    1:    .    .    .    .
+    2:    .    5    6    2
+    3:    .    1    1    .
+
+==========================================================================================
+TYPE 115
+count = 1
+all original indices = [182]
+all ideals with this table:
+  182: (x1, x2*x3, x2*x4, x3*x4, x2*x5, x3*x5, x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 1): 1, (1, 2): 6, (2, 3): 14, (3, 4): 11, (4, 5): 3}
+Total Betti vector = (1, 7, 14, 11, 3)
+pd(S/I) = 4; reg(S/I) = 1
+          0    1    2    3    4
+total:    1    7   14   11    3
+    0:    1    1    .    .    .
+    1:    .    6   14   11    3
+
+==========================================================================================
+TYPE 116
+count = 3
+all original indices = [183, 185, 187]
+all ideals with this table:
+  183: (x1*x2, x1*x3, x2*x3, x1*x4, x2*x4, x3*x4, x1*x5)
+  185: (x1*x2, x1*x3, x2*x3, x1*x4, x2*x4, x1*x5, x3*x5)
+  187: (x1*x2, x1*x3, x2*x3, x1*x4, x2*x4, x3*x5, x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 7, (2, 3): 11, (3, 4): 6, (4, 5): 1}
+Total Betti vector = (1, 7, 11, 6, 1)
+pd(S/I) = 4; reg(S/I) = 1
+          0    1    2    3    4
+total:    1    7   11    6    1
+    0:    1    .    .    .    .
+    1:    .    7   11    6    1
+
+==========================================================================================
+TYPE 117
+count = 1
+all original indices = [184]
+all ideals with this table:
+  184: (x1*x2, x1*x3, x2*x3, x1*x4, x2*x4, x1*x5, x2*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 7, (2, 3): 12, (3, 4): 8, (4, 5): 2}
+Total Betti vector = (1, 7, 12, 8, 2)
+pd(S/I) = 4; reg(S/I) = 1
+          0    1    2    3    4
+total:    1    7   12    8    2
+    0:    1    .    .    .    .
+    1:    .    7   12    8    2
+
+==========================================================================================
+TYPE 118
+count = 2
+all original indices = [186, 190]
+all ideals with this table:
+  186: (x1*x2, x1*x3, x2*x3, x1*x4, x2*x4, x1*x5, x3*x4*x5)
+  190: (x1*x2, x1*x3, x1*x4, x2*x3*x4, x2*x5, x3*x5, x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 6, (1, 3): 1, (2, 3): 9, (2, 4): 2, (3, 4): 5, (3, 5): 1, (4, 5): 1}
+Total Betti vector = (1, 7, 11, 6, 1)
+pd(S/I) = 4; reg(S/I) = 2
+          0    1    2    3    4
+total:    1    7   11    6    1
+    0:    1    .    .    .    .
+    1:    .    6    9    5    1
+    2:    .    1    2    1    .
+
+==========================================================================================
+TYPE 119
+count = 1
+all original indices = [188]
+all ideals with this table:
+  188: (x1*x2, x1*x3, x2*x3, x1*x4, x1*x5, x2*x4*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 5, (1, 3): 2, (2, 3): 7, (2, 4): 4, (3, 4): 4, (3, 5): 2, (4, 5): 1}
+Total Betti vector = (1, 7, 11, 6, 1)
+pd(S/I) = 4; reg(S/I) = 2
+          0    1    2    3    4
+total:    1    7   11    6    1
+    0:    1    .    .    .    .
+    1:    .    5    7    4    1
+    2:    .    2    4    2    .
+
+==========================================================================================
+TYPE 120
+count = 1
+all original indices = [189]
+all ideals with this table:
+  189: (x1*x2, x1*x3, x1*x4, x2*x3*x4, x1*x5, x2*x3*x5, x2*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 4, (1, 3): 3, (2, 3): 6, (2, 4): 5, (3, 4): 4, (3, 5): 2, (4, 5): 1}
+Total Betti vector = (1, 7, 11, 6, 1)
+pd(S/I) = 4; reg(S/I) = 2
+          0    1    2    3    4
+total:    1    7   11    6    1
+    0:    1    .    .    .    .
+    1:    .    4    6    4    1
+    2:    .    3    5    2    .
+
+==========================================================================================
+TYPE 121
+count = 1
+all original indices = [191]
+all ideals with this table:
+  191: (x1*x2, x1*x3, x1*x4, x2*x3*x4, x2*x3*x5, x2*x4*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 3, (1, 3): 4, (2, 3): 3, (2, 4): 7, (3, 4): 1, (3, 5): 3}
+Total Betti vector = (1, 7, 10, 4)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    7   10    4
+    0:    1    .    .    .
+    1:    .    3    3    1
+    2:    .    4    7    3
+
+==========================================================================================
+TYPE 122
+count = 1
+all original indices = [192]
+all ideals with this table:
+  192: (x1*x2, x1*x3, x2*x3*x4, x2*x3*x5, x1*x4*x5, x2*x4*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 2, (1, 3): 5, (2, 3): 1, (2, 4): 9, (3, 5): 4}
+Total Betti vector = (1, 7, 10, 4)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    7   10    4
+    0:    1    .    .    .
+    1:    .    2    1    .
+    2:    .    5    9    4
+
+==========================================================================================
+TYPE 123
+count = 2
+all original indices = [193, 194]
+all ideals with this table:
+  193: (x1*x2, x1*x3*x4, x2*x3*x4, x1*x3*x5, x2*x3*x5, x1*x4*x5, x2*x4*x5)
+  194: (x1*x2, x1*x3*x4, x2*x3*x4, x1*x3*x5, x2*x3*x5, x1*x4*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 1, (1, 3): 6, (2, 4): 10, (3, 5): 4}
+Total Betti vector = (1, 7, 10, 4)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    7   10    4
+    0:    1    .    .    .
+    1:    .    1    .    .
+    2:    .    6   10    4
+
+==========================================================================================
+TYPE 124
+count = 4
+all original indices = [195, 196, 197, 199]
+all ideals with this table:
+  195: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x2*x3*x4, x1*x2*x5, x1*x3*x5, x2*x3*x5)
+  196: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x2*x3*x4, x1*x2*x5, x1*x3*x5, x1*x4*x5)
+  197: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x2*x3*x4, x1*x2*x5, x1*x3*x5, x2*x4*x5)
+  199: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x1*x2*x5, x1*x3*x5, x2*x4*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 7, (2, 4): 9, (3, 5): 3}
+Total Betti vector = (1, 7, 9, 3)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    7    9    3
+    0:    1    .    .    .
+    1:    .    .    .    .
+    2:    .    7    9    3
+
+==========================================================================================
+TYPE 125
+count = 1
+all original indices = [198]
+all ideals with this table:
+  198: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x1*x2*x5, x1*x3*x5, x1*x4*x5, x2*x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 6, (1, 4): 1, (2, 4): 8, (2, 5): 1, (3, 5): 3}
+Total Betti vector = (1, 7, 9, 3)
+pd(S/I) = 3; reg(S/I) = 3
+          0    1    2    3
+total:    1    7    9    3
+    0:    1    .    .    .
+    1:    .    .    .    .
+    2:    .    6    8    3
+    3:    .    1    1    .
+
+==========================================================================================
+TYPE 126
+count = 2
+all original indices = [200, 202]
+all ideals with this table:
+  200: (x1*x2, x1*x3, x2*x3, x1*x4, x2*x4, x3*x4, x1*x5, x2*x5)
+  202: (x1*x2, x1*x3, x2*x3, x1*x4, x2*x4, x1*x5, x3*x5, x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 8, (2, 3): 14, (3, 4): 9, (4, 5): 2}
+Total Betti vector = (1, 8, 14, 9, 2)
+pd(S/I) = 4; reg(S/I) = 1
+          0    1    2    3    4
+total:    1    8   14    9    2
+    0:    1    .    .    .    .
+    1:    .    8   14    9    2
+
+==========================================================================================
+TYPE 127
+count = 1
+all original indices = [201]
+all ideals with this table:
+  201: (x1*x2, x1*x3, x2*x3, x1*x4, x2*x4, x1*x5, x2*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 7, (1, 3): 1, (2, 3): 12, (2, 4): 2, (3, 4): 8, (3, 5): 1, (4, 5): 2}
+Total Betti vector = (1, 8, 14, 9, 2)
+pd(S/I) = 4; reg(S/I) = 2
+          0    1    2    3    4
+total:    1    8   14    9    2
+    0:    1    .    .    .    .
+    1:    .    7   12    8    2
+    2:    .    1    2    1    .
+
+==========================================================================================
+TYPE 128
+count = 1
+all original indices = [203]
+all ideals with this table:
+  203: (x1*x2, x1*x3, x1*x4, x2*x3*x4, x1*x5, x2*x3*x5, x2*x4*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 4, (1, 3): 4, (2, 3): 6, (2, 4): 7, (3, 4): 4, (3, 5): 3, (4, 5): 1}
+Total Betti vector = (1, 8, 13, 7, 1)
+pd(S/I) = 4; reg(S/I) = 2
+          0    1    2    3    4
+total:    1    8   13    7    1
+    0:    1    .    .    .    .
+    1:    .    4    6    4    1
+    2:    .    4    7    3    .
+
+==========================================================================================
+TYPE 129
+count = 1
+all original indices = [204]
+all ideals with this table:
+  204: (x1*x2, x1*x3*x4, x2*x3*x4, x1*x3*x5, x2*x3*x5, x1*x4*x5, x2*x4*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 1, (1, 3): 7, (2, 4): 12, (3, 5): 5}
+Total Betti vector = (1, 8, 12, 5)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    8   12    5
+    0:    1    .    .    .
+    1:    .    1    .    .
+    2:    .    7   12    5
+
+==========================================================================================
+TYPE 130
+count = 2
+all original indices = [205, 206]
+all ideals with this table:
+  205: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x2*x3*x4, x1*x2*x5, x1*x3*x5, x2*x3*x5, x1*x4*x5)
+  206: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x2*x3*x4, x1*x2*x5, x1*x3*x5, x2*x4*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 8, (2, 4): 11, (3, 5): 4}
+Total Betti vector = (1, 8, 11, 4)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    8   11    4
+    0:    1    .    .    .
+    1:    .    .    .    .
+    2:    .    8   11    4
+
+==========================================================================================
+TYPE 131
+count = 1
+all original indices = [207]
+all ideals with this table:
+  207: (x1*x2, x1*x3, x2*x3, x1*x4, x2*x4, x3*x4, x1*x5, x2*x5, x3*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 9, (2, 3): 17, (3, 4): 12, (4, 5): 3}
+Total Betti vector = (1, 9, 17, 12, 3)
+pd(S/I) = 4; reg(S/I) = 1
+          0    1    2    3    4
+total:    1    9   17   12    3
+    0:    1    .    .    .    .
+    1:    .    9   17   12    3
+
+==========================================================================================
+TYPE 132
+count = 1
+all original indices = [208]
+all ideals with this table:
+  208: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x2*x3*x4, x1*x2*x5, x1*x3*x5, x2*x3*x5, x1*x4*x5, x2*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 9, (2, 4): 13, (3, 5): 5}
+Total Betti vector = (1, 9, 13, 5)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1    9   13    5
+    0:    1    .    .    .
+    1:    .    .    .    .
+    2:    .    9   13    5
+
+==========================================================================================
+TYPE 133
+count = 1
+all original indices = [209]
+all ideals with this table:
+  209: (x1*x2, x1*x3, x2*x3, x1*x4, x2*x4, x3*x4, x1*x5, x2*x5, x3*x5, x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 2): 10, (2, 3): 20, (3, 4): 15, (4, 5): 4}
+Total Betti vector = (1, 10, 20, 15, 4)
+pd(S/I) = 4; reg(S/I) = 1
+          0    1    2    3    4
+total:    1   10   20   15    4
+    0:    1    .    .    .    .
+    1:    .   10   20   15    4
+
+==========================================================================================
+TYPE 134
+count = 1
+all original indices = [210]
+all ideals with this table:
+  210: (x1*x2*x3, x1*x2*x4, x1*x3*x4, x2*x3*x4, x1*x2*x5, x1*x3*x5, x2*x3*x5, x1*x4*x5, x2*x4*x5, x3*x4*x5)
+Betti dictionary beta_(i,j) = {(0, 0): 1, (1, 3): 10, (2, 4): 15, (3, 5): 6}
+Total Betti vector = (1, 10, 15, 6)
+pd(S/I) = 3; reg(S/I) = 2
+          0    1    2    3
+total:    1   10   15    6
+    0:    1    .    .    .
+    1:    .    .    .    .
+    2:    .   10   15    6
+
