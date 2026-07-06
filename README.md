@@ -151,7 +151,7 @@ For example, if the last nonzero Betti number occurs in homological degree 3, th
 
 ### Regularity
 
-The Castelnuovo-Mumford regularity of $$S/I$$ is
+The regularity of $$S/I$$ is
 
 reg($$S/I$$) = max($$j$$ - $$i$$) such that $$\beta_{i,j}$$ is nonzero.
 
