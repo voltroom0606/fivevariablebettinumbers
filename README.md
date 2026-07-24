@@ -44,7 +44,7 @@ This creates `reps5.m2`.
 Then run the Macaulay2 computation:
 
 ```bash
-M2 --script code/compute_134_betti_tables.m2
+M2 --script code/compute_betti_tables.m2
 ```
 
 The main output is `distinct_betti_table_types_m2.txt`.
