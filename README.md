@@ -87,7 +87,7 @@ The computation found 134 distinct Betti table types among the 208 nonzero prope
 
 ### Count
 
-The `count` is the number of representativce ideals realizing a given Betti table type.
+The `count` is the number of representative ideals realizing a given Betti table type.
 
 For example,
 
